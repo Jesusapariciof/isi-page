@@ -131,14 +131,15 @@ img{
   
 }
 .bio{
-    border: 1px solid red;
+    /* border: 1px solid red;  */
     width: 85%;
     text-align: justify;
     padding: 10px;
     
 }
 .fotos{
-    border: 1px solid blue;
+    margin-left: 50px;
+    border: 1px solid blue; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -155,10 +156,16 @@ img{
     text-align: center;
 }
 .biografia-container, .bio-pri{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     width: 80%;
     margin: auto;
+}
+.line{
+    border-bottom: 3px solid  #203A43;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
 }
 .titulo{
     text-align: center;
@@ -174,14 +181,18 @@ img{
     height: 60px;
 }
 .video{
-    margin-left: 160px;
+    /* margin-left: 160px; */
+    width: 80%;
+    margin: auto;
     margin-top: 20px;
 }
 .text-clase{
-    margin-left: 160px;
+width: 80%;
+margin: auto;
+margin-top: 10px;
 }
 .clases{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     justify-content: space-around;
     height: 200px;
@@ -189,13 +200,16 @@ img{
     margin: auto;
 }
 .presenciales, .online{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .presenciales img{
+    height: 100px;
+}
+.online img{
     height: 100px;
 }
 
@@ -217,8 +231,10 @@ img{
         display: none;
     }
     .video{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         margin-left: 0px;
+        margin: auto;
+        text-align: center;
         
     }
     iframe{
@@ -230,6 +246,9 @@ img{
         /* margin-bottom: 160px; */
         height: 400px;
     }
+    .text-clase{
+        text-align: center;
+    }
     .presenciales img{
         height: 80px;
     }
@@ -239,4 +258,21 @@ img{
     footer{
         font-size: 10px;
     }
+}
+
+.galeria img{
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6) ;
+    border-radius: 15px;
+}
+.material-placeholder{
+    margin-bottom: 10px;
+}
+.container-fotos{
+    height: 100vh;
+}
+.nav-wrapper{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
