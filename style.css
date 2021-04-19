@@ -1,0 +1,200 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* .navbar.navbar-expand-lg.navbar-light.bg-light{
+     animation: moverIzquierda 1s ease-in; 
+} */
+
+header{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: auto;
+    /* padding: 48px; */
+     width: 100%; 
+}
+
+.container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+   
+}
+img{
+    display: block;
+    height: 350px;
+    object-fit: cover;
+    width: auto;
+    animation: arriba 1s ease-in;
+    border-radius: 50%;
+    margin-top: 2px;
+
+}
+
+.textos{
+    width: 50%;
+    color: #fff;
+}
+
+.textos h1{
+    font-size: 80px;
+    animation: moverDerecha 1s ease-in;
+
+}
+.textos h2{
+    font-size: 30px;
+    animation: moverIzquierda 1s ease-in;
+
+}
+
+.textos a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 30px;
+    border: 1px solid #fff;
+    width: 150px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 0;
+    animation: arriba 1s ease-in;
+
+
+}
+
+.wave{
+    height: 100px;
+    width: 100%;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@keyframes moverIzquierda{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moverDerecha{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes arriba{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@media (max-width:768px){
+    img{
+        height: 200px;
+    }
+    .textos{
+        width: 100%;
+        text-align: center;
+    }
+    .textos h1{
+        font-size: 27px;
+    }
+    .textos h2{
+        margin: auto;
+        font-size: 15px;
+    }
+    .container{
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    /* .textos a{
+        visibility: hidden;
+    } */
+  
+}
+.bio{
+    border: 1px solid red;
+    width: 85%;
+    text-align: justify;
+    padding: 10px;
+    
+}
+.fotos{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.fotos img{
+    width: 95px;
+    height: 50px;
+}
+.guitarras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.biografia-container, .bio-pri{
+    border: 2px solid green;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.titulo{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    border: 1px solid blue;
+}
+.video{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+@media(max-width:768px){
+    .biografia{
+        width: 100%;
+        font-size: 10px;
+    }
+   
+    .bio{
+        border: 1px solid yellow;
+        width: 100%;
+    }
+    .biografia-container{
+        width: 100%;
+        border: 1px solid blue;
+    }
+    .fotos{
+        display: none;
+    }
+    .video{
+        border: 1px solid red;
+        margin-left: 0px;
+        
+    }
+    iframe{
+        width: 100%;
+        height: 180px;
+    }
+}
