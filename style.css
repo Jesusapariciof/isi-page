@@ -170,16 +170,16 @@ img{
 .titulo{
     text-align: center;
 }
-.footer{
+/* .footer{
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
     height: 60px;
-}
+} */
 .video{
     /* margin-left: 160px; */
     width: 80%;
@@ -195,7 +195,7 @@ margin-top: 10px;
     /* border: 1px solid blue; */
     display: flex;
     justify-content: space-around;
-    height: 200px;
+    height: auto;
     width: 80%;
     margin: auto;
 }
@@ -244,7 +244,7 @@ margin-top: 10px;
     .clases{
         flex-direction: column;
         /* margin-bottom: 160px; */
-        height: 400px;
+        /* height: 400px; */
     }
     .text-clase{
         text-align: center;
@@ -255,10 +255,10 @@ margin-top: 10px;
     .online img{
         height: 80px;
     }
-    footer{
+    /* footer{
         font-size: 10px;
         margin-top: 55px;
-    }
+    } */
 }
 
 .galeria img{
@@ -297,7 +297,8 @@ margin-top: 10px;
 
 .container-contacto{
    
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: calc(100vh - 855px - 70px);
     width: 80%;
     margin: auto;
 }
@@ -324,16 +325,14 @@ form{
 .text-redes{
     text-align: center;
 }
-.footer-contacto{
+/* .footer-contacto{
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 60px;
-}
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);  */
 
 @media(max-width:768px){
     .formulario{
@@ -349,17 +348,20 @@ form{
         height: 200px;
     }
     .container-contacto{
-   
-        height: 100vh;
+        min-height: calc(100vh - 900px - 70px);
+        /* height: 100vh; */
         width: 90%;
         margin: auto;
     }
-    .footer-contacto{
+    /* .footer-contacto{
         font-size: 10px;
         margin-top: 450px;
-    }
+    } */
     
 }
+
+
+
 
 /* Material */
 
@@ -371,14 +373,14 @@ form{
     height: 132px;
 }
 
-.footer-material{
+/* .footer-material{
     display: flex;
     justify-content: center;
     align-items: center;
     color: #fff;
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
     height: 60px;
 
 }
@@ -389,9 +391,27 @@ form{
         justify-content: center;
         align-items: center;
         color: #fff;
-        background: #0F2027;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #0F2027;  
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
         height: 60px;
     }
+} */
+
+.page-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    text-align: center;
+}
+#text-footer{
+    width: 100%;
+    margin: auto;
+}
+#datos{
+    width: 200px;
 }
