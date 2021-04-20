@@ -5,10 +5,10 @@
 .material-placeholder{
     margin-bottom: 10px;
 }
-.responsive-img.materialboxed{
+/* .responsive-img.materialboxed{
 height: 211px;
 width: 213px;
-}
+} */
 .nav-wrapper{
     background: #0F2027;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
@@ -29,9 +29,12 @@ width: 213px;
     footer{
         font-size: 10px;
     }
+    
+}
+
+@media(min-width:768px){
     .responsive-img.materialboxed{
         height: 211px;
-        width: 316px;
-        }
-
+        width: 213px;
+    }
 }
