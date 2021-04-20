@@ -4,27 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+  
+
 </head>
 <body>
-    <form name="contact" method="POST" data-netlify="true">
-        <p>
-          <label>Your Name: <input type="text" name="name" /></label>   
-        </p>
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <p>
-          <label>Your Role: <select name="role[]" multiple>
-            <option value="leader">Leader</option>
-            <option value="follower">Follower</option>
-          </select></label>
-        </p>
-        <p>
-          <label>Message: <textarea name="message"></textarea></label>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
-      </form>
+  <header>
+    <nav>
+        <div class="nav-wrapper">
+          <a href="/index.html" class="brand-logo">Logo</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="fotos.html">Galería de imágenes</a></li>
+            <li><a href="material.html">Material descargable</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="mobile.html">Redes</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="fotos.html">Galería de imágenes</a></li>
+        <li><a href="material.html">Material descargable</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="mobile.html">Redes</a></li>
+      </ul>
+</header>
+
+<main class="container-contacto">
+<div class="formulario">
+  <form name="contact" method="POST" data-netlify="true">
+      <p>
+        <label>Nombre: <input type="text" name="name" placeholder="Escriba su nombre" required /></label>   
+      </p>
+      <p>
+        <label>Email: <input type="email" name="email" placeholder="Escriba su email" required></label>
+      </p>
+      <p>
+        <label>Teléfono: <input type="number" name="telefono" placeholder="Escriba su teléfono" required/></label>
+      </p>
+      <!-- <p>
+        <label>Your Role: <select name="role[]" multiple>
+          <option value="leader">Leader</option>
+          <option value="follower">Follower</option>
+        </select></label>
+      </p> -->
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
+  </div>
+</main>
+<footer>
+  <div class="footer">
+  <p> © 2017. Isidoro García Díaz. Todos los derechos reservados.</p>
+</div>
+</footer>
+<script src="/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
 </body>
 </html>

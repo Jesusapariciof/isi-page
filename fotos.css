@@ -5,6 +5,9 @@
 .material-placeholder{
     margin-bottom: 10px;
 }
+.container{
+    height: 100vh;
+}
 /* .responsive-img.materialboxed{
 height: 211px;
 width: 213px;

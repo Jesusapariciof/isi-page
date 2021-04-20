@@ -268,7 +268,7 @@ margin-top: 10px;
 .material-placeholder{
     margin-bottom: 10px;
 }
-.container-fotos{
+.container-fotos, .container-contacto{
     height: 100vh;
 }
 .nav-wrapper{
@@ -276,4 +276,11 @@ margin-top: 10px;
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
+}
+
+/* formulario */
+
+.formulario{
+    width: 80%;
+    margin: auto;
 }
