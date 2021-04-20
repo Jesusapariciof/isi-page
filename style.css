@@ -418,3 +418,7 @@ form{
 #datos{
     width: 200px;
 }
+.jim-text{
+    margin-left: 170px;
+    animation: moverDerecha 1s ease-in;
+}
