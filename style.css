@@ -358,14 +358,40 @@ form{
         font-size: 10px;
         margin-top: 450px;
     }
+    
 }
 
 /* Material */
 
 .container-material{
-    height: 100vh;
+    height: 100%;
    
 }
 .card-content{
     height: 132px;
+}
+
+.footer-material{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 60px;
+
+}
+@media(min-width:768px){
+    .footer-material{
+        margin-top: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        background: #0F2027;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        height: 60px;
+    }
 }
