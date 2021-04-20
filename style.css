@@ -353,6 +353,9 @@ form{
         width: 90%;
         margin: auto;
     }
+    /* .brand-logo{
+        margin-left: 0px;
+    } */
     /* .footer-contacto{
         font-size: 10px;
         margin-top: 450px;
@@ -414,4 +417,7 @@ form{
 }
 #datos{
     width: 200px;
+}
+.brand-logo{
+    margin-left: 20px;
 }
