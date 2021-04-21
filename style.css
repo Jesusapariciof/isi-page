@@ -324,6 +324,7 @@ form{
 .icono{
     height: 80px;
     width: 80px;
+    border-radius: 0%;
 }
 .text-redes{
     text-align: center;
