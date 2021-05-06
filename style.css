@@ -374,6 +374,7 @@ form{
 
 .container-material{
     height: 100%;
+    overflow: scroll;
    
 }
 .card-content{
